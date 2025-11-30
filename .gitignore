@@ -1,0 +1,21 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Local override files
+terraform.tfvars
+*.auto.tfvars.json
+
+# Kube config (if ever copied here)
+*.kube/config
+
+# Editors/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
